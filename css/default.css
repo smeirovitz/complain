@@ -1,0 +1,272 @@
+
+@font-face{
+	font-family:Prestige Elite Std;
+	src:url(PrestigeEliteStd.otf);
+}
+
+@font-face{
+	font-family:Ostrich Sans;
+	src:url(ostrich-black.ttf);
+}
+html{
+	background:#f9ed32;
+}
+body{
+	margin: 0 auto;
+}
+#container {
+	padding:20px;
+	width: 960px;
+	height:800px;
+	margin: 0 auto;
+}
+
+
+/*Home Page text starts here*/
+#homepagetext{
+	margin-top: 205px;
+}
+
+.logo{
+	padding-top: 30px;
+	margin: 0 auto;
+	font-family: Ostrich Sans;
+	font-weight:900;
+	font-size: 35pt;
+	height:140px;
+	width:700px;
+	text-align: center;
+}
+#complainging{
+	font-size: 60pt;
+}
+
+#subhead{
+	margin: 0 auto;
+	text-align: center;
+	width: 400pt;
+	font-family: Prestige Elite Std;
+	font-size: 9pt;
+	display: none;
+}
+/*home page text ends here */
+
+#allhomeimages{
+	margin-left:25px;
+	display: none;
+}
+
+#homeimagestop {
+	margin-left: -30px;
+	margin-top: -490px;
+}
+
+#homeimagestop img{
+	margin: 58px;
+}
+
+#homeimagesbottom img{
+	margin: 30px;
+	padding-top: 160px;
+}
+
+/*SUB PAGES BEGIN*/
+
+#subheadcontainer{
+  width: 900px;
+  height: 600px;
+  margin-top: 170px;
+  margin: 0 auto;
+}
+#subpagetitleimage{
+	float:left;
+	padding-top:5px;
+}
+#subpagetitletext{
+	color:#5d9b9b;
+	padding-top: 30px;
+	padding-left: 20px;
+	float:left;
+	font-family: Ostrich Sans;
+	font-weight:900;
+	font-size: 90pt;
+	height:140px;
+	width:700px;
+
+}
+
+#return{
+	margin-left: 840px;
+	position: absolute;
+	font-family: Ostrich Sans;
+	font-weight:900;
+}
+
+#return a{
+	text-decoration: none;
+	color:black;
+}
+
+a.visted{
+	color:black;
+}
+
+/*REPEATING SUB PAGE CODE ENDS - SLEEP PAGE BEGINS*/
+
+.sleepcharts{
+	float:left;
+}
+
+aside{
+	padding-left: 40px;
+	float:left;
+	width: 420px;
+	font-family: Prestige Elite Std;
+	font-size: 10pt;
+}
+
+#averagesleep{
+	font-family: Ostrich Sans;
+	font-size: 30pt;
+	font-weight: 900;
+	text-align: center;
+	color:#5d9b9b;
+}
+.sleepcharts img{
+	padding:15px;
+}
+
+#chartdate{
+	position: absolute;
+	margin-top: -248px;
+	font-family: Ostrich Sans;
+	font-size: 20pt;
+	font-weight: 900;
+	text-align: center;
+	width:480px;
+}
+
+#chartinfo{
+	margin-left: 25px;
+	position: absolute;
+	margin-top: -210px;
+	font-family: Prestige Elite Std;
+	font-size: 8pt;
+	text-align: center;
+	width:440px;
+}
+
+#chartstats{
+	padding: 0px;
+	position: absolute;
+	margin-top: -160px;
+	font-family: OStrich Sans;
+	font-weight: 900;
+	font-size: 12pt;
+	width:460px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#chartstats li{
+	text-align: center;
+	padding: 0px;
+	margin-left: 23px;
+	float:left;
+	list-style-type: none;
+}
+
+.card1{
+	position: relative;
+	border-radius: 25px;
+	top: 0;
+	z-index: 1;
+	background: #5d9b9b
+
+}
+
+.card2{
+	margin-top: -222px;
+	border-radius: 25px;
+	background:#68a6a6;
+	position: relative;
+	top: 0;
+	z-index: 2;
+}
+
+.card3{
+	margin-top: -215px;
+	background:#74b0b0;
+	border-radius: 25px;
+	position: relative;
+	top: 0;
+	z-index: 3;
+}
+
+.card4{
+	margin-top: -215px;
+	border-radius: 25px;
+	background:#7fbbbb;
+	position: relative;
+	top: 0;
+	z-index: 4;
+}
+
+.card5{
+	margin-top: -215px;
+	border-radius: 25px;
+	background:#8ac6c6;
+	position: relative;
+	top: 0;
+	z-index: 5;
+}
+/*LOVE PAGE BEGINS */
+
+#lovetext{
+	padding-top: 20px;
+	float:left;
+	width:590px;
+	height:400px;
+	font-family: Prestige Elite Std;
+	font-size: 10pt;
+}
+
+#lovephone{
+	padding-left: 40px;
+	float:left;
+	width: 270px;
+	font-family: Prestige Elite Std;
+	font-size: 10pt;
+	margin-top: -20px;
+}
+
+.textslider{
+	position: absolute;
+	width:360px;
+	height:200px;
+	margin-left: 585px;
+	margin-top: 235px;
+}
+
+
+p#loveconclusion{
+	font-family: Ostrich Sans;
+	font-weight:900;
+	font-size: 30pt;
+	color:#5d9b9b;
+}
+
+/* START OF NETFLIX PAGE */
+#box1{
+	height:50px;
+	width:40px;
+	background: green;
+	position: absolute;
+	margin-top: -350px;
+	margin-left: 200px;
+}
+
+
+
+
+
