@@ -8,6 +8,13 @@
 	font-family:Ostrich Sans;
 	src:url(ostrich-black.ttf);
 }
+
+@font-face{
+	font-family: Montserrat;
+	src:url(fonts/Montserrat-Regular.otf);
+}
+
+
 html{
 	background:#f9ed32;
 }
@@ -17,7 +24,7 @@ body{
 #container {
 	padding:20px;
 	width: 960px;
-	height:800px;
+	height:700px;
 	margin: 0 auto;
 }
 
@@ -28,47 +35,45 @@ body{
 }
 
 .logo{
-	padding-top: 30px;
+
+	padding-top: 60px;
 	margin: 0 auto;
-	font-family: Ostrich Sans;
-	font-weight:900;
+	font-family: Montserrat;
+	font-weight:600;
 	font-size: 35pt;
 	height:140px;
 	width:700px;
 	text-align: center;
+	color:#5d9b9b;
 }
 #complainging{
-	font-size: 60pt;
+	margin-top: -20px;
+	font-size: 58pt;
+
 }
 
 #subhead{
 	margin: 0 auto;
 	text-align: center;
-	width: 400pt;
-	font-family: Prestige Elite Std;
-	font-size: 9pt;
+	width: 400px;
+	font-family:Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+	font-weight: 100pt;
 	display: none;
 }
 /*home page text ends here */
 
 #allhomeimages{
-	margin-left:25px;
+	margin-top: -500px;
 	display: none;
 }
 
-#homeimagestop {
-	margin-left: -30px;
-	margin-top: -490px;
+#allhomeimages img{
+	padding: 58px;
+	padding-bottom: 210px;
 }
 
-#homeimagestop img{
-	margin: 58px;
-}
-
-#homeimagesbottom img{
-	margin: 30px;
-	padding-top: 160px;
-}
 
 /*SUB PAGES BEGIN*/
 
@@ -78,38 +83,39 @@ body{
   margin-top: 170px;
   margin: 0 auto;
 }
-#subpagetitleimage{
-	float:left;
-	padding-top:5px;
-}
+
 #subpagetitletext{
 	color:#5d9b9b;
 	padding-top: 30px;
 	padding-left: 20px;
 	float:left;
-	font-family: Ostrich Sans;
-	font-weight:900;
-	font-size: 90pt;
+	font-family: Montserrat;
+	font-size: 80pt;
+	font-weight: 500;
 	height:140px;
-	width:700px;
+	width:900px;
+	text-align: CENTER;
 
 }
 
-#return{
-	margin-left: 840px;
+#nav{
+	margin-top: -5px;
+	margin-left: 230px;
 	position: absolute;
-	font-family: Ostrich Sans;
-	font-weight:900;
 }
 
-#return a{
-	text-decoration: none;
-	color:black;
+#nav img{
+	padding-left:10px;
+	padding-right: 10px;
 }
 
-a.visted{
-	color:black;
+#nav a:hover{
+	border-radius: 50%;
+	width: 60px;
+	height: 10px; 
+	background:#5d9b9b;
 }
+
 
 /*REPEATING SUB PAGE CODE ENDS - SLEEP PAGE BEGINS*/
 
@@ -118,18 +124,19 @@ a.visted{
 }
 
 aside{
+	margin-top: 60px;
 	padding-left: 40px;
 	float:left;
 	width: 420px;
-	font-family: Prestige Elite Std;
+	font-family: Montserrat;
+	font-weight: 200;
 	font-size: 10pt;
 }
 
 #averagesleep{
-	font-family: Ostrich Sans;
-	font-size: 30pt;
-	font-weight: 900;
-	text-align: center;
+	font-family: Montserrat;
+	font-size: 24pt;
+	font-weight: 600;
 	color:#5d9b9b;
 }
 .sleepcharts img{
@@ -138,10 +145,9 @@ aside{
 
 #chartdate{
 	position: absolute;
-	margin-top: -248px;
-	font-family: Ostrich Sans;
+	margin-top: -255px;
+	font-family: Montserrat;
 	font-size: 20pt;
-	font-weight: 900;
 	text-align: center;
 	width:480px;
 }
@@ -150,19 +156,19 @@ aside{
 	margin-left: 25px;
 	position: absolute;
 	margin-top: -210px;
-	font-family: Prestige Elite Std;
+	font-family: Montserrat;
 	font-size: 8pt;
 	text-align: center;
 	width:440px;
+	font-weight: 200;
 }
 
 #chartstats{
 	padding: 0px;
 	position: absolute;
 	margin-top: -160px;
-	font-family: OStrich Sans;
-	font-weight: 900;
-	font-size: 12pt;
+	font-family: Montserrat;
+	font-size: 8pt;
 	width:460px;
 	text-align: center;
 	margin-left: 10px;
@@ -181,14 +187,14 @@ aside{
 	border-radius: 25px;
 	top: 0;
 	z-index: 1;
-	background: #5d9b9b
+	background: #5d9b9b;
 
 }
 
 .card2{
 	margin-top: -222px;
 	border-radius: 25px;
-	background:#68a6a6;
+	background:#6ba9a1;
 	position: relative;
 	top: 0;
 	z-index: 2;
@@ -196,7 +202,7 @@ aside{
 
 .card3{
 	margin-top: -215px;
-	background:#74b0b0;
+	background:#79b7a8;
 	border-radius: 25px;
 	position: relative;
 	top: 0;
@@ -206,7 +212,7 @@ aside{
 .card4{
 	margin-top: -215px;
 	border-radius: 25px;
-	background:#7fbbbb;
+	background:#86c5ae;
 	position: relative;
 	top: 0;
 	z-index: 4;
@@ -215,19 +221,61 @@ aside{
 .card5{
 	margin-top: -215px;
 	border-radius: 25px;
-	background:#8ac6c6;
+	background:#94d3b4;
 	position: relative;
 	top: 0;
 	z-index: 5;
 }
+
+.allsleepkey{
+	margin-top: 170px;
+	margin-left: 630px;
+}
+.sleepykey{
+	position: absolute;
+}
+
+#yellowawake{
+	margin-top: 5px;
+}
+#yellow{
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius: 10px;
+	background: #ffde16;
+	border: dotted 1px #5d9b9b;
+}
+
+ul#sleepykeywords{
+	margin-left: -40px;
+	position: absolute; 
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 9pt;
+
+}
+
+ul#sleepykeywords li{
+	text-align: center;
+	list-style-type: none;
+	float:left;
+	margin-right: 30px;
+	display: block;
+	width:50px;
+}
+
+
+
+
 /*LOVE PAGE BEGINS */
 
 #lovetext{
-	padding-top: 20px;
 	float:left;
 	width:590px;
 	height:400px;
-	font-family: Prestige Elite Std;
+	font-family: Montserrat;
+	font-weight: 200;
 	font-size: 10pt;
 }
 
@@ -235,9 +283,10 @@ aside{
 	padding-left: 40px;
 	float:left;
 	width: 270px;
-	font-family: Prestige Elite Std;
+	font-family: Montserrat;
+	font-weight: 200;
 	font-size: 10pt;
-	margin-top: -20px;
+	margin-top: 0px;
 }
 
 .textslider{
@@ -250,23 +299,440 @@ aside{
 
 
 p#loveconclusion{
-	font-family: Ostrich Sans;
-	font-weight:900;
-	font-size: 30pt;
+	font-family: Montserrat;
+	font-weight:600;
+	font-size: 28pt;
 	color:#5d9b9b;
 }
 
 /* START OF NETFLIX PAGE */
-#box1{
-	height:50px;
-	width:40px;
-	background: green;
+
+#computer{
+	margin-left: 0px;
+}
+.netflixboxes{
+	width:650px;
 	position: absolute;
-	margin-top: -350px;
-	margin-left: 200px;
+	margin-top: 340px;
+	margin-left: 50px;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16{
+	height:90px;
+	width:70px;
+	background: #5d9b9b;
+	float:left;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 40px;
+}
+
+#box2, #box7, #box11, #box16{
+	background: #8bc3c6;
+}
+
+#box5, #box9, #box14{
+	background:#8dc63f;
+
+}
+
+.moviestats{
+	width:670px;
+	position: absolute;
+	margin-top: 345px;
+	margin-left: 23px;
+	z-index: 1;
+}
+
+ul#moviestats{
+	font-family: Montserrat;
+	font-weight:200;
+	font-size: 8pt;
+}
+
+ul#moviestats li{
+	padding-bottom: 45px;
+	list-style-type: none;
+	float:left;
+	width:60px;
+	margin-right: 26px;
+	text-align: center;
+	display: block;
+	height:80px;
+}
+
+#moviescore{
+	margin-top: 0px;
+	font-weight: 600;
+	font-size: 20pt;
 }
 
 
+.netflixbodytext{
+	padding-left: 20px;
+	margin-left: 700px;
+	margin-top: -505px;
+	width: 175px;
+	font-family: Montserrat;
+	font-weight:200;
+	font-size: 10pt;
+}
+
+#netflixresults{
+	font-family: Montserrat;
+	font-weight:600;
+	font-size: 15pt;
+	color: #5d9b9b;
+}
 
 
+/* START OF STARVING PAGE */
+
+.foodkey{
+	margin-left: 345px;
+}
+
+#blue{
+	float:left;
+	margin-right: 30px;
+	width:50px;
+	height:50px;
+	border-radius: 10px;
+	background: #5d9b9b;
+}
+
+#green{
+	float:left;
+	margin-right: 30px;
+	width:50px;
+	height:50px;
+	border-radius: 10px;
+	background: #8dc63f;
+}
+
+#white{
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius: 10px;
+	background: #f0f1f1;
+}
+
+ul#foodkeywords{
+	position: absolute;
+	margin-left:313px;
+	margin-top: 188px; 
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 9pt;
+
+}
+
+ul#foodkeywords li{
+	list-style-type: none;
+	float:left;
+	margin-right: 52px;
+}
+
+
+.foodgraphs{
+	clear:both;
+}
+.foodgraphs img{
+	margin-top: 15px;
+	float:left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+ul#foodinfo{
+	margin-left: -42px;
+}
+
+ul#foodinfo li{
+	float:left;
+	list-style-type: none;
+	margin-right: 34px;
+	margin-left: 34px;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 9pt;
+	font-weight: 200;
+	display: block;
+	width: 112px;
+	height: 60px;
+
+}
+
+li p#foodDay{
+	font-size: 11pt;
+	font-family: Montserrat;
+	font-weight:600;
+	color:#5d9b9b;
+	margin-bottom: -10px;
+}
+
+
+.starvingdescription{
+	margin-top: 40px;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+	float:left;
+	margin-right: 60px;
+	width: 380px;
+}
+
+#starvingresults{
+	position: absolute;
+	margin-top: -210px;
+	margin-left: 410px;
+	width: 500px;
+	font-weight: 600;
+	font-size: 18pt;
+	color:#5d9b9b;
+}
+
+/*
+.dailyfood ul li{
+	list-style-type: none;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+
+}
+
+#foodtime{
+	font-weight: 600;
+	color:#5d9b9b;
+} */
+
+
+
+/*PHONE PAGE BEGINS*/
+
+.phonecontainer{
+	position: absolute;
+	margin-left:315px;
+	margin-top: 170px;
+	z-index: -1;
+}
+
+#batterytext{
+	position: absolute;
+	margin-top: 190px;
+	width:230px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+	color:white;
+}
+
+#batterycharge{
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 81px;
+	width:140px;
+	height:86px;
+	background:#8bc3c6;
+}
+
+.appicons{
+	margin-left:315px;
+	padding-top: 345px;
+	width:280px;
+	height:500px;
+}
+.appicons ul{
+	list-style-type: none;
+
+}
+.appicons ul li{
+	float:left;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+.appicons li img:hover{
+	box-shadow: -4px 4px 0px 0px  #363636;
+	border-radius: 5px;
+}
+
+
+#appinfo{
+	position: absolute;
+	margin-top: -710px;
+	margin-left: 580px;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+}
+
+#appinfo ul{
+	width: 400px;
+	
+}
+
+#appinfo ul li{
+	padding: 10px;
+	width: 130px;
+	float:left;
+	list-style-type: none;
+}
+
+#app1, #app2, #app3, #app4, #app5, #app6, #app7, #app7, #app8, #app9{
+	display: none;
+}
+
+#apptitle{
+	margin-bottom: 0px;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 10pt;
+	color:#5d9b9b;
+}
+
+#phonedescription{
+	margin-top: 170px;
+	position: absolute;
+	width:290px;
+	height:400px;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+}
+
+#batteryresults{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 17pt;
+	color:#5d9b9b;
+}
+
+/*start of AIR page*/
+
+
+.bases{
+	position: absolute;
+	margin-top: 545px;
+	margin-left: 270px;
+}
+
+#thermometerbase1,#thermometerbase2,#thermometerbase3,#thermometerbase4,#thermometerbase5, #thermometerbase6, #thermometerbase7{
+	border-radius: 50%;
+	width: 85px;
+	height: 85px; 
+	background: #5d9b9b;
+	float: left;
+	margin-left: 5px;
+}
+
+.thermblock{
+	margin-left: 248px;
+	margin-top: 250px;
+	position: absolute;
+}
+
+#thermmblock{
+	margin-top: 10px;
+	width: 41px;
+	height: 300px; 
+	background: #5d9b9b;
+	float: left;
+	margin-left: 49px;
+
+}
+.thermmove{
+	margin-left: 248px;
+	margin-top: 220px;
+	position: absolute;
+}
+#thermmove1,#thermmove2,#thermmove3,#thermmove4,#thermmove5, #thermmove6, #thermmove7{
+	width: 41px;
+	height: 85px; 
+	background: white;
+	float: left;
+	margin-left: 49px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+
+}
+
+.degrees{
+	position: absolute;
+	margin-top: 545px;
+	margin-left: 260px;
+	z-index: 1;
+}
+.degrees ul{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 20pt;
+	color:white;
+
+}
+
+.degrees ul li{
+	list-style-type: none;
+	float:left;
+	margin-right: 48px;
+
+}
+
+#temp1, #temp2, #temp3, #temp4, #temp5, #temp6, #temp7{
+	display: none;
+}
+
+.temperature{
+	position: absolute;
+	margin-left:245px;
+	margin-top: 154px;
+}
+
+.temperature ul li{
+	text-align: right;
+	list-style-type: none;
+	margin-right: 30px;
+	float:left;
+}
+
+
+#tempday1, #tempday2, #tempday3, #tempday4, #tempday5, #tempday6, #tempday7{
+	margin-bottom: 0px;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 13pt;
+	color:#5d9b9b;
+	background:white;
+	padding: 5px;
+	display:block;
+	border-radius: 10px;
+	width:50px;
+	height:25px;
+	text-align: center;
+}
+
+#tempday1:hover, #tempday2:hover, #tempday3:hover, #tempday4:hover, #tempday5:hover, #tempday6:hover, #tempday7:hover{
+	background: #5d9b9b;
+	color:white;
+}
+
+#tempdescription{
+	margin-top: 170px;
+	position: absolute;
+	width:270px;
+	height:400px;
+	font-family: Montserrat;
+	font-weight: 200;
+	font-size: 10pt;
+}
+
+#tempresults{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 17pt;
+	color:#5d9b9b;
+}
 
