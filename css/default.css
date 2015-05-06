@@ -1,17 +1,8 @@
 
-@font-face{
-	font-family:Prestige Elite Std;
-	src:url(PrestigeEliteStd.otf);
-}
-
-@font-face{
-	font-family:Ostrich Sans;
-	src:url(ostrich-black.ttf);
-}
 
 @font-face{
 	font-family: Montserrat;
-	src:url(fonts/Montserrat-Regular.otf);
+	src:url(../fonts/Montserrat-Regular.otf);
 }
 
 
